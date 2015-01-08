@@ -1,0 +1,191 @@
+/*
+	CSS File
+	"style_02"
+*/
+
+@font-face
+{
+	font-family: fusty_saddle;
+	src: url('../fonts/fusty_saddle/fusty_saddle.ttf');
+}
+@font-face
+{
+	font-family: ugly_qua;
+	src: url('../fonts/UglyQua/UglyQua.ttf');
+}
+@font-face
+{
+	font-family: caslon;
+	src: url('../fonts/alan-carr_caslon-antique/CAS_ANTN.ttf');
+}
+*:not(title)
+{
+	display: block;
+}
+html
+{
+	background-image: url('../images/wood_04_e01.jpg');
+	background-attachment: scroll;
+	background-repeat: repeat-y;
+	background-size: 100%;
+	background-origin: padding-box;
+}
+body
+{
+	width: auto;
+	height: auto;
+	color: black;
+	padding: 0px;
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-top: 60px;
+	margin-bottom: 100px;
+}
+div#header
+{
+	width: 100%;
+	height: 50px;
+	padding: 0px;
+	margin: 0px;
+}
+/*div#header ul
+{
+	display: block;
+	width: 100%;
+	height: auto;
+	padding: 0px;
+	margin: 0px;
+	margin-left: auto;
+	margin-right: auto;
+}
+div#header ul li
+{
+	display: block;
+	float: left;
+}
+div#header ul li object
+{
+	width: 10%;
+	height: auto;
+}*/
+div#header h1 a
+{
+	font-family: fusty_saddle;
+	color: white;
+	text-shadow: 0px 0px 30px #FF3004;
+	text-align: center;
+	font-size: 48pt;
+	text-decoration: none;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	height: 100%;
+}
+div#buttonBar_top
+{
+	width: 80%;
+	height: 21px;
+	margin: 0px;
+	padding: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+}
+div#buttonBar_top ul
+{
+	width: 100%;
+	height: 100%;
+	padding: 0px;
+	margin: 0px;
+}
+div#buttonBar_top ul li
+{
+	display: inline-block;
+	float: left;
+	width: 16.667%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	background-color: none;
+}
+div#buttonBar_top ul li a
+{
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	font-family: caslon;
+	font-size: 24px;
+	font-weight: normal;
+	text-decoration: none;
+	color: white;
+	text-shadow: 0px 0px 20px #FF3004;
+}
+div#buttonBar_top ul li a:hover
+{
+	color: #777777;
+}
+div#buttonBar_top ul li a.activePage
+{
+	text-decoration: underline;
+	text-decoration-line: underline;
+	text-decoration-style: solid;
+	text-decoration-color: white;
+}
+div#bodySec
+{
+	margin: 0px;
+	padding: 0px;
+	margin-top: 40px;
+	width: 100%;
+	height: 5000px;
+	background-color: none;
+	border-style: solid;
+	border-width: 1px;
+	border-color: white;
+	border-radius: 10px;
+	box-shadow: 0px 0px 20px 0px #FF3004;
+}
+div.bioSec
+{
+	width: 100%;
+	height: 1200px;
+	margin: 0px;
+	padding: 0px;
+	border-style: none;
+}
+section.bio
+{
+	width: 100%;
+	height: 200px;
+	margin: 0px;
+	padding: 0px;
+	border-style: none;
+}
+section.bio h2
+{
+	color: white;
+	font-family: ugly_qua;
+	text-align: left;
+	font-size: 24pt;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	height: 50px;
+}
+section.bio img
+{
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	height: 50px;
+}
+section.bio p
+{
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	height: 50px;
+
+	color: white;
+}
