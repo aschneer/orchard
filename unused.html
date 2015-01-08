@@ -1,0 +1,54 @@
+<button
+	type="button"
+	name="homeButton"
+	form="form_buttonBar"
+	value="butVal_home"
+	autofocus>
+	Home
+</button>
+<button
+	type="button"
+	name="exitButton"
+	form="form_buttonBar"
+	value="butVal_exit">
+	Exit
+</button>
+
+
+
+
+
+
+
+
+div#all
+{
+	display: block;
+
+	/* Set rules to fill background */
+	min-height: 100%;
+	min-width: 500px;
+
+	/* Set up proportionate scaling */
+	width: 100%;
+	height: auto;
+
+	/* Set up positioning */
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+div#all img#backImg
+{
+	width: 100%;
+	height: 100%;
+}
+
+@media screen and (max-width: 500px)
+{ /* Specific to this particular image */
+	div#all
+	{
+		left: 50%;
+		margin-left: -250px;   /* 50% */
+	}
+}
